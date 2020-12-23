@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "460415700127",
+    "project_id": "bthcuoi",
+    "storage_bucket": "bthcuoi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460415700127:android:107badc0e4beebf63266aa",
+        "android_client_info": {
+          "package_name": "com.example.bth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460415700127-dct5gv5mp9jaaotqb3uacb4fe6h18qf1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bth",
+            "certificate_hash": "7b7ba378bbf9c789e470a531d24a6fc8af124f58"
+          }
+        },
+        {
+          "client_id": "460415700127-i2nphi2m3qcn1eppvm1n2ugslhn2j8gr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRnvEdfCLJnCR0xpSLWRdIUJX5moKV_NA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460415700127-i2nphi2m3qcn1eppvm1n2ugslhn2j8gr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
