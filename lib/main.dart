@@ -1,3 +1,4 @@
+import 'package:bth/view/home_view.dart';
 import 'package:bth/view/login_view.dart';
 import 'package:flutter/material.dart';
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: LoginPage(),
+      home: HomeView(),
     );
   }
 }
