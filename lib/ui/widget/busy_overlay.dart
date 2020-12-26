@@ -1,0 +1,39 @@
+//import 'package:bth/ui/shared/ui_helpers.dart';
+import 'package:flutter/material.dart';
+
+class BusyOverley extends StatelessWidget {
+  final Widget child;
+  final String title;
+  final bool show;
+
+  const BusyOverley({this.child, this.title = 'Xin chờ...', this.show = false});
+  @override
+  Widget build(BuildContext context) {
+    return Material(
+      var screenSize = MediaQuery.of(context).size;
+      child: Stack(children: <Widget>[
+        child,
+        IgnorePointer(
+          child: Opacity(
+            opacity: show ? 1.0 : 0.0,
+            child: Container(
+              width: screenSize.width,
+              height: screenSize.height,
+              alignment: Alignment.center,
+              color: Color.fromARGB(100, 0, 0, 0),
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  CircularProgressIndicator(),
+                  Text(title,
+                      style: TextStyle(
+                          fontSize: 16.0,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white)),
+                ],
+              ),
+            )),
+             ),
+    ]));
+  }
+}
