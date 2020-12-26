@@ -1,8 +1,5 @@
 import 'package:bth/view/create_view.dart';
 import 'package:flutter/material.dart';
-import 'package:http/http.dart';
-import 'package:provider/provider.dart';
-import 'package:stacked/stacked.dart';
 
 class HomeView extends StatelessWidget {
   const HomeView({Key key}) : super(key: key);

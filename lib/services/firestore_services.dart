@@ -12,7 +12,6 @@ class FireStoreService {
       // ignore: deprecated_member_use
       await _collectionReference.document(user.id).setData(user.toJson());
     } catch (e) {
-      // TODO: Find or create a way to repeat error handling without so much repeated code
       if (e is PlatformException) {
         return e.message;
       }
@@ -27,7 +26,6 @@ class FireStoreService {
       var userData = await _collectionReference.document(uid).get();
       return User.fromData(userData.data());
     } catch (e) {
-      // TODO: Find or create a way to repeat error handling without so much repeated code
       if (e is PlatformException) {
         return e.message;
       }
