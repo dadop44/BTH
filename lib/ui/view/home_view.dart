@@ -1,4 +1,4 @@
-import 'package:bth/view/create_view.dart';
+import 'package:bth/ui/view/create_view.dart';
 import 'package:flutter/material.dart';
 
 class HomeView extends StatelessWidget {

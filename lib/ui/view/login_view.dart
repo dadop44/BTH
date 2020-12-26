@@ -1,4 +1,4 @@
-import 'package:bth/widget/login_widget.dart';
+import 'package:bth/ui/widget/login_widget.dart';
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatelessWidget {
