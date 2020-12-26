@@ -9,12 +9,13 @@ class BusyOverley extends StatelessWidget {
   const BusyOverley({this.child, this.title = 'Xin chờ...', this.show = false});
   @override
   Widget build(BuildContext context) {
+    var screenSize = MediaQuery.of(context).size;
+
     return Material(
-      var screenSize = MediaQuery.of(context).size;
-      child: Stack(children: <Widget>[
-        child,
-        IgnorePointer(
-          child: Opacity(
+        child: Stack(children: <Widget>[
+      child,
+      IgnorePointer(
+        child: Opacity(
             opacity: show ? 1.0 : 0.0,
             child: Container(
               width: screenSize.width,
@@ -33,7 +34,7 @@ class BusyOverley extends StatelessWidget {
                 ],
               ),
             )),
-             ),
+      ),
     ]));
   }
 }
